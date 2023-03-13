@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: controller-engine
+  kafka:
+    bootstrap-servers: iopref-kafka-1:9092
+app:
+  send-topic: send-topic
+  reply-topic: reply-topic
+  consumer-group: test-kafka-grp
